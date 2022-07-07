@@ -1,0 +1,5 @@
+type Query {
+  greetingBasic: String!
+  greetingPerson(name: String!): String!
+  greetingWelcomeAPI: String!
+}
